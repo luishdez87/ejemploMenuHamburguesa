@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "menuhamburguesa"
+    }
+  },
+  "defaultProject": "menuhamburguesa",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -1,0 +1,6 @@
+<div *ngIf="!toggled; else closeIcon">
+  <i class="fas fa-bars pointer" (click)="toggleSidebar()" ></i>
+</div>
+<ng-template #closeIcon>
+  <i class="fas fa-times pointer" (click)="toggleSidebar()"></i>
+</ng-template>

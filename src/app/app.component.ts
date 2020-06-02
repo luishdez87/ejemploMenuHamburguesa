@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'menuhamburguesa';
+
+  opened: boolean;
+
+  handleEmitter($event) {
+    this.opened = $event;
+  }
 }
